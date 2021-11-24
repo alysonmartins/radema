@@ -20,7 +20,7 @@
 	--bs-cyan: #0dcaf0;
 	--bs-gray: #6c757d;
 	--bs-gray-dark: #343a40;
-	--bs-primary: #cb0c9f;
+	--bs-primary: #f27f7f;
 	--bs-secondary: #8392ab;
 	--bs-success: #82d616;
 	--bs-info: #17c1e8;
@@ -9289,7 +9289,7 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-	color: #cb0c9f!important
+	color: #f00!important
 }
 
 .text-secondary {
@@ -16792,7 +16792,9 @@ fieldset:disabled .btn {
 .btn.bg-gradient-success,
 .btn.bg-gradient-success:hover,
 .btn.bg-gradient-warning,
-.btn.bg-gradient-warning:hover {
+.btn.bg-gradient-warning:hover,
+.bg-gradient-instagram,
+.bg-gradient-instagram:hover {
 	color: #fff
 }
 
@@ -16846,7 +16848,8 @@ fieldset:disabled .btn {
 }
 
 .card .card-header {
-	padding: 1.5rem
+	padding: 1.5rem;
+	padding-top: 2.5rem !important;
 }
 
 .card .card-body {
@@ -16940,8 +16943,8 @@ fieldset:disabled .btn {
 }
 
 .card.card-background.card-background-mask-primary:after {
-	background-image: linear-gradient(310deg, #7928ca, #ff0080);
-	opacity: .85
+	background-image: linear-gradient(310deg, #9b9b9b, #8a0000);
+	opacity: .45
 }
 
 .card.card-background.card-background-mask-secondary:before {
@@ -17496,7 +17499,13 @@ label {
 }
 
 .bg-gradient-primary {
-	background-image: linear-gradient(310deg, #7928ca, #ff0080)
+	background-image: linear-gradient(310deg, #ea0606, #ff667c)
+}
+.bg-gradient-instagram{
+	background-image: linear-gradient(310deg,#7928ca,#ff0080);
+}
+.bg-gradient-card-primary{
+	background-image: linear-gradient(116.86deg, #C40707 0%, #730505 52.84%, #222222 105.79%);
 }
 
 .bg-gradient-secondary {
@@ -18082,7 +18091,7 @@ hr.horizontal.gray-light {
 
 .navbar .nav-link {
 	padding: .5rem 1rem;
-	font-weight: 400
+	font-weight: 600
 }
 
 .navbar.navbar-absolute {
@@ -20515,7 +20524,7 @@ p {
 }
 
 .text-gradient.text-primary {
-	background-image: linear-gradient(310deg, #7928ca, #ff0080)
+	background-image: linear-gradient(310deg, #2152ff, #f00)
 }
 
 .text-gradient.text-info {
@@ -22828,7 +22837,7 @@ screen and (-ms-high-contrast:active) {
 }
 
 .glide__slide {
-	width: 100%;
+	width: 240px !important;
 	height: 100%;
 	flex-shrink: 0;
 	white-space: normal;
