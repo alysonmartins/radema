@@ -4765,7 +4765,8 @@ fieldset:disabled .btn {
 	}
 	.navbar-expand-lg .navbar-collapse {
 		display: flex!important;
-		flex-basis: auto
+		flex-basis: auto;
+		margin-left: 9.5rem;
 	}
 	.navbar-expand-lg .navbar-toggler {
 		display: none
@@ -4792,7 +4793,8 @@ fieldset:disabled .btn {
 	}
 	.navbar-expand-xl .navbar-collapse {
 		display: flex!important;
-		flex-basis: auto
+		flex-basis: auto;
+		margin-left:.5rem;
 	}
 	.navbar-expand-xl .navbar-toggler {
 		display: none
@@ -16794,7 +16796,11 @@ fieldset:disabled .btn {
 .btn.bg-gradient-warning,
 .btn.bg-gradient-warning:hover,
 .bg-gradient-instagram,
-.bg-gradient-instagram:hover {
+.bg-gradient-instagram:hover,
+.bg-gradient-whatsapp,
+.bg-gradient-whatsapp:hover,
+.bg-gradient-geral,
+.bg-gradient-geral:hover {
 	color: #fff
 }
 
@@ -17502,7 +17508,13 @@ label {
 	background-image: linear-gradient(310deg, #ea0606, #ff667c)
 }
 .bg-gradient-instagram{
-	background-image: linear-gradient(310deg,#7928ca,#ff0080);
+	background-image: linear-gradient(134.93deg, #7A3EB1 -0.13%, #D43278 49.94%, #F57438 100%);
+}
+.bg-gradient-whatsapp{
+	background-image: linear-gradient(116.29deg, #56D162 0%, #23B33A 100%);
+}
+.bg-gradient-geral{
+	background-image: linear-gradient(116.29deg, #ADAA9D 0%, #5F5E5D 47.58%, #222222 100%, #646359 100%);
 }
 .bg-gradient-card-primary{
 	background-image: linear-gradient(116.86deg, #C40707 0%, #730505 52.84%, #222222 105.79%);
@@ -17533,7 +17545,7 @@ label {
 }
 
 .bg-gradient-dark {
-	background-image: linear-gradient(310deg, #141727, #3a416f)
+	background-image: linear-gradient(310deg, #141727, #141727)
 }
 
 .bg-gradient-faded-primary {
@@ -18197,7 +18209,7 @@ hr.horizontal.gray-light {
 @media (max-width:991.98px) {
 	.navbar.navbar-transparent .navbar-collapse {
 		padding-top: .5rem;
-		padding-bottom: .5rem
+		padding-bottom: .5rem;
 	}
 	.navbar.navbar-transparent .navbar-collapse.collapsing,
 	.navbar.navbar-transparent .navbar-collapse.show {

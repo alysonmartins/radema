@@ -71,13 +71,12 @@
                   <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
                      <ul class="navbar-nav navbar-nav-hover mx-auto">
 
-                        <li class="nav-item mx-2"><a role="button" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center">Inicio</a></li>
-                        <li class="nav-item  mx-2"><a role="button" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center">Contacto</a></li>
+                        <li class="nav-item mx-2"><a role="button" class="nav-link ps-2 d-flex cursor-pointer">Inicio</a></li>
+                        <li class="nav-item mx-2"><a role="button" class="nav-link ps-2 d-flex cursor-pointer">Contacto</a></li>
 
 
                         <li class="nav-item dropdown dropdown-hover mx-2">
-                           <a role="button" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown"
-                              aria-expanded="false">
+                           <a role="button" class="nav-link ps-2 d-flex cursor-pointer" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
                               Servicios
                               <img src="./assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-1">
                            </a>
@@ -338,10 +337,11 @@
                      </div>
                      <h2 class="text-white up mb-0">Tintado de Lunas <br /></h2>
                      <h3 class="text-white up mb-0">
-                        <i class="fas fa-check text-danger" aria-hidden="true"></i> Homologados
-                        <br><i class="fas fa-check text-danger" aria-hidden="true"></i> 7 anos de Garantia
+                        <i class="fas fa-check text-danger" aria-hidden="true"></i> Homologado
+                        <br><i class="fas fa-check text-danger" aria-hidden="true"></i> Garantia
+                        <br><i class="fas fa-check text-danger" aria-hidden="true"></i> Calidad
                      </h3>
-                     <a href="#precios" target="_blank" class="btn btn-outline-white btn-lg mt-3 up btn-round">Ver mas precios</a>
+                     <a href="#prices" class="btn btn-outline-white btn-lg mt-3 up">Ver mas precios</a>
                   </div>
                </div>
             </div>
@@ -349,7 +349,7 @@
       </div>
    </section>
 
-   <!-- -------- START Presentation Account Pages ------- -->
+
    <section class="mt-lg-10 pb-4 bg-gray-900 m-3 border-radius-xl">
       <div class="container">
          <div class="row">
@@ -357,7 +357,7 @@
                <h2 class="text-white text-primary mb-0 mt-6">Nuestro trabajo en Instagram</h2>
                <p class="text-white opacity-8"></p>
                <div class="buttons">
-                  <a href="https://www.instagram.com/autosradema" target="_blank" class="btn bg-gradient-instagram mt-4">Visitar Perfil</a>
+                  <a href="https://www.instagram.com/autosradema" target="_blank" class="btn bg-gradient-instagram mt-4"><i class="fab fa-instagram"></i> Visitar Perfil</a>
                </div>
             </div>
             <div class="col-lg-8 ps-5 pe-0">
@@ -398,7 +398,7 @@
                            <img class="w-100 border-radius-xl" src="./assets/img/instagram/i5.jpg" alt="">
                         </a>
                      </div>
-                     <div class="card move-on-hover">
+                     <div class="card move-on-hover mt-4">
                         <a href="#">
                            <img class="w-100 border-radius-xl" src="./assets/img/instagram/i6.jpg" alt="">
                         </a>
@@ -423,7 +423,7 @@
             <div class="col-lg-6 mx-auto text-center">
                <h2 class="mb-0">Taller de Confianza</h2>
                <h2 class="text-gradient text-primary mb-3">1,435,000 clientes</h2>
-               <p class="lead">todos contentos con nuestro productos, servicios y atencion. </p>
+               <p class="lead">contentos con nuestros productos, servicios y atencion. </p>
             </div>
          </div>
          <div class="row mt-6">
@@ -517,7 +517,7 @@
 
 
 
-
+   <div id="prices"></div>
    <!-- ================================= PRICE -->
    <section class="testimonial-2 mt-5 pt-5">
       <div class="container">
@@ -1145,7 +1145,7 @@
                   test the quality of the code. Get it free on GitHub!
                </p>
                <div class="github-buttons">
-                  <a href="#" target="_blank" rel="nofollow" class="btn bg-gradient-primary mb-4 mb-sm-0"><i class="fab fa-whatsapp"></i> Pide cita ahora</a>
+                  <a href="#" target="_blank" rel="nofollow" class="btn bg-gradient-whatsapp mb-4 mb-sm-0"><i class="fab fa-whatsapp"></i> Pide cita ahora</a>
                   <div class="github-button">
                      <span></span>
                   </div>
@@ -1175,7 +1175,7 @@
                   Sea cual sea tu compañía. Te prestaremos los mejores servicios.
                   Rapidez y seriedad son nuestro lema.
                </p>
-               <a href="#" target="_blank" rel="nofollow" class="btn bg-gradient-primary mb-4 mb-sm-0"><i class="fab fa-whatsapp"></i> Consultar con un Especialista</a>
+               <a href="#" target="_blank" rel="nofollow" class="btn bg-gradient-whatsapp mb-4 mb-sm-0"><i class="fab fa-whatsapp"></i> Consultar con un Especialista</a>
             </div>
          </div>
       </div>
@@ -1192,8 +1192,8 @@
                <a href="https://www.facebook.com/autosradema" class="btn btn-facebook mb-0 me-2" target="_blank">
                   <i class="fab fa-facebook-square me-1"></i> Autos Radema
                </a>
-               <a href="https://www.instagram/autosradema/" class="btn btn-instagram mb-0 me-2" target="_blank">
-                  <i class="fab fa-instagram me-1"></i> @autosradema
+               <a href="https://www.instagram/autosradema/" class="btn bg-gradient-instagram mb-0 me-2" target="_blank">
+                  <i class="fab fa-instagram me-1"></i> autosradema
                </a>
             </div>
          </div>
@@ -1227,22 +1227,16 @@
 
             <div class="col-md-2 col-sm-6 col-6 mb-4">
                <div>
-                  <h6 class="text-gradient text-primary text-sm">Company</h6>
+                  <h6 class="text-gradient text-primary text-sm">Nosotros</h6>
                   <ul class="flex-column ms-n3 nav">
-                     <li class="nav-item">
-                        <a class="nav-link" href="about-us.html" target="_blank">
-                           About Us
-                        </a>
-                     </li>
-
                      <li class="nav-item">
                         <a class="nav-link" href="https://cita.autosradema.es/" target="_blank">
                            Cita Online
                         </a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="https://www.creative-tim.com/blog" target="_blank">
-                           Blog
+                        <a class="nav-link" href="about-us.html" target="_blank">
+                           Acerca de Nosotros
                         </a>
                      </li>
                   </ul>
@@ -1254,13 +1248,13 @@
                   <h6 class="text-gradient text-primary text-sm">Ayuda Y Soporte</h6>
                   <ul class="flex-column ms-n3 nav">
                      <li class="nav-item">
-                        <a class="nav-link" href="contacto.html" target="_blank">
+                        <a class="nav-link" href="contacto.html" target="">
                            Contacto
                         </a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="https://www.creative-tim.com/knowledge-center" target="_blank">
-                           Centro de ConocimKnowledge Center
+                        <a class="nav-link" href="faq.html" target="">
+                           Preguntas frecuentes
                         </a>
                      </li>
                   </ul>
