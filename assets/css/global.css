@@ -51,10 +51,14 @@ body {
 	font-family: var(--bs-font-sans-serif);
 	font-size: 1rem;
 	line-height: 1.5;
-	color: #67748e;
-	background-color: #fff;
+	color: #fff;
+	background-color: #212529;
 	-webkit-text-size-adjust: 100%;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+footer{
+	background-color:#333;
 }
 
 hr {
@@ -85,7 +89,7 @@ h6 {
 	margin-bottom: .5rem;
 	font-weight: 400;
 	line-height: 1.2;
-	color: #344767
+	color: #ffe
 }
 
 .h1,
@@ -4951,7 +4955,7 @@ fieldset:disabled .btn {
 	flex-direction: column;
 	min-width: 0;
 	word-wrap: break-word;
-	background-color: #fff;
+	background-color: #666;
 	background-clip: border-box;
 	border: 0 solid rgba(0, 0, 0, .125);
 	border-radius: 1rem
@@ -5013,7 +5017,7 @@ fieldset:disabled .btn {
 .card-header {
 	padding: .5rem 1rem;
 	margin-bottom: 0;
-	background-color: #fff;
+	background-color: #666;
 	border-bottom: 0 solid rgba(0, 0, 0, .125)
 }
 
@@ -17492,7 +17496,7 @@ label {
 }
 
 .footer .nav-link {
-	color: #344767;
+	color: #fff;
 	font-weight: 400;
 	font-size: .875rem;
 	padding-top: 0;
@@ -20435,7 +20439,7 @@ h4 {
 
 a {
 	letter-spacing: -.025rem;
-	color: #344767
+	color: #eee
 }
 
 .text-sm {
